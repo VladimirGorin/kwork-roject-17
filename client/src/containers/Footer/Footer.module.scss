@@ -1,0 +1,43 @@
+@import "../../commonStyles/common";
+
+.Footer {
+  background: #151621;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1);
+  padding-top: 90px;
+  padding-bottom: 50px;
+  &_inner {
+    max-width: 1360px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: $white;
+  }
+
+  li {
+    list-style: none;
+    margin-bottom: 10px;
+    @include fontStyle(14px, 1.1, $white, $font, 400);
+  }
+
+  p {
+    @include fontStyle(16px, 23px, $white, $fontB, 800);
+    margin-bottom: 10px;
+    &.logo {
+      font-size: 25px;
+      line-height: 37px;
+      text-transform: uppercase;
+      color: #E51C23;
+    }
+    &.copy {
+      font-size: 14px;
+      line-height: 21px;
+      color: #B8B9BE;
+    }
+  }
+
+  a {
+    @include fontStyle(14px, 1.1, $white, $font, 400);
+    text-decoration: none;
+  }
+}

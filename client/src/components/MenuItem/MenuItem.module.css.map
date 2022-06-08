@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "ACGA,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACvB",
+    "sources": [
+        "MenuItem.module.scss",
+        "../../commonStyles/_common.scss",
+        "../../commonStyles/_vars.scss",
+        "../../commonStyles/_mixins.scss"
+    ],
+    "names": [],
+    "file": "MenuItem.module.css"
+}

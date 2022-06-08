@@ -1,0 +1,48 @@
+@import "../../commonStyles/common";
+
+.home_wrap {
+  padding: 34px 35px 20px;
+  ul {
+    background: #FFFFFF;
+    box-shadow: 0 4px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    max-width: 327px;
+    width: 100%;
+    overflow-y: hidden;
+    li {
+      list-style: none;
+      border-bottom: 1px solid #ECEDEF;
+      display: flex;
+      align-items: center;
+      position: relative;
+      img {
+        width: 36px;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+      }
+      a {
+        @include fontStyle(16px, 1, $main, $font, 400);
+        text-decoration: none;
+        padding: 22px 23px;
+        display: block;
+        width: 100%;
+      }
+      &:first-child {
+        background: black;
+        color: $white;
+        border: none;
+        padding: 22px 23px;
+        display: block;
+        width: 100%;
+        @include fontStyle(16px, 1, $white, $font, 400);
+      }
+      &:last-child {
+        color: $red;
+        cursor: pointer;
+      }
+    }
+  }
+}

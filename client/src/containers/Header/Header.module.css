@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Header .top_header {
+  padding: 13px 60px;
+  background: #ECEDEF;
+}
+
+.Header .top_header_inner {
+  max-width: 1360px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Header .city {
+  margin-right: 70px;
+  font-size: 16px;
+  line-height: 23px;
+  color: #151621;
+  font-family: "Regular", sans-serif;
+  font-weight: 400;
+  position: relative;
+}
+
+.Header .city:before {
+  content: '';
+  position: absolute;
+  width: 17px;
+  height: 20px;
+  background-image: url("../../assets/imgs/marker.svg");
+  background-position: center;
+  top: 0;
+  left: -27px;
+}
+
+.Header .work_time {
+  margin-right: 70px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  font-family: "Regular", sans-serif;
+  font-weight: 400;
+  max-width: 214px;
+  background: #E51C23;
+  width: 100%;
+  padding: 2px 0 2px 40px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.Header .work_time:before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url("../../assets/imgs/time.svg");
+  background-position: center;
+  top: 3.5px;
+  left: 11px;
+  display: block;
+}
+
+.Header .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Header .links li {
+  list-style: none;
+  margin-right: 37px;
+}
+
+.Header .links li:last-child {
+  margin-right: 0;
+}
+
+.Header .links li a {
+  font-size: 14px;
+  line-height: 24px;
+  color: #151621;
+  font-family: "Regular", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.Header .links li a:hover {
+  opacity: 0.7;
+}
+
+.Header .header_bottom {
+  background: #151621;
+  -webkit-box-shadow: 0 4px 50px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 50px rgba(0, 0, 0, 0.1);
+  padding: 32px 35px 30px;
+}
+
+.Header .header_bottom_inner {
+  max-width: 1360px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 25px;
+  line-height: 37px;
+  color: #E51C23;
+  font-family: "Regular", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-right: 63px;
+}
+
+.Header .phone {
+  font-size: 14px;
+  line-height: 24px;
+  color: #151621;
+  font-family: "Regular", sans-serif;
+  font-weight: 400;
+  padding: 14px 31px;
+  background: #ECEDEF;
+  border-radius: 5px;
+  margin-right: 30px;
+}
+
+.Header .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 640px;
+  width: 100%;
+  height: 50px;
+}
+
+.Header .search input {
+  background: #ECEDEF;
+  width: 100%;
+  height: 50px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  line-height: 24px;
+  color: #151621;
+  font-family: "Regular", sans-serif;
+  font-weight: 800;
+  padding-left: 30px;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.Header .search button {
+  cursor: pointer;
+  width: 58px;
+  height: 50px;
+  border: none;
+  background-color: #FF3B30;
+  border-radius: 0 5px 5px 0;
+  background-image: url("../../assets/imgs/search.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Header .account {
+  margin-left: 50px;
+}
+
+.Header .account ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Header .account ul li {
+  list-style: none;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+}
+
+.Header .account ul li.account_acc {
+  background-image: url("../../assets/imgs/user.svg");
+}
+
+.Header .account ul li.account_wish {
+  background-image: url("../../assets/imgs/heart.svg");
+  margin: 0 35px;
+}
+
+.Header .account ul li.account_cart {
+  background-image: url("../../assets/imgs/shopping-cart.svg");
+}
+/*# sourceMappingURL=Header.module.css.map */

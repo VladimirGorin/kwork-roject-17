@@ -1,0 +1,25 @@
+@mixin fontStyle($fz, $lh, $color, $font, $fw) {
+  font-size: $fz;
+  line-height: $lh;
+  color: $color;
+  font-family: $font, sans-serif;
+  font-weight: $fw
+}
+
+@mixin buttons ($width, $bg, $pt, $color, $font) {
+  font-size: 17px;
+  max-width: $width;
+  width: 100%;
+  background: $bg;
+  padding: $pt;
+  cursor: pointer;
+  display: block;
+  color: $color;
+  text-align: center;
+  line-height: 20px;
+  font-family: $font;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  font-weight: 700;
+}

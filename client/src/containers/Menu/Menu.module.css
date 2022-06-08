@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.show_more {
+  font-size: 16px;
+  line-height: 1;
+  color: #FF3B30;
+  font-family: "Regular", sans-serif;
+  font-weight: 400;
+  border-bottom: 1px solid #ECEDEF;
+  padding: 22px 0;
+  background: #FFFFFF;
+  border-radius: 5px;
+  max-width: 327px;
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+}
+/*# sourceMappingURL=Menu.module.css.map */

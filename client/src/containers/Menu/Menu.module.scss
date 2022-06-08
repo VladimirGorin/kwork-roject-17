@@ -1,0 +1,13 @@
+@import "../../commonStyles/common";
+
+.show_more {
+  @include fontStyle(16px, 1, $red, $font, 400);
+  border-bottom: 1px solid #ECEDEF;
+  padding: 22px 0;
+  background: #FFFFFF;
+  border-radius: 5px;
+  max-width: 327px;
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+}
